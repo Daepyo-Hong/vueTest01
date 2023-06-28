@@ -41,6 +41,47 @@ const routes = [
     path: '/dataBindingSelect',
     name: 'dataBindingSelect',
     component: () => import(/* webpackChunkName: "dataBindingInputNumber" */'../views/DataBindingSelect.vue')
+  },
+  {
+    path: '/dataBindingCheckbox',
+    name: 'dataBindingCheckbox',
+    component: () => import(/* webpackChunkName: "dataBindingCheckbox" */'../views/DataBindingCheckbox.vue')
+  },
+  {
+    path: '/dataBindingCheckbox2',
+    name: 'dataBindingCheckbox2',
+    component: () => import(/* webpackChunkName: "dataBindingCheckbox2" */'../views/DataBindingCheckbox2.vue')
+  },
+  {
+    path: '/dataBindingRadio',
+    name: 'dataBindingRadio',
+    component: () => import(/* webpackChunkName: "dataBindingRadio" */'../views/DataBindingRadio.vue')
+  },
+  {
+    path: '/dataBindingAttribute',
+    name: 'dataBindingAttribute',
+    component: () => import(/* webpackChunkName: "dataBindingAttribute" */'../views/DataBindingAttribute.vue')
+  },
+  {
+    path: '/dataBindingButton',
+    name: 'dataBindingButton',
+    component: () => import(/* webpackChunkName: "dataBindingButton" */'../views/DataBindingButton.vue')
+  },
+  {
+    path: '/dataBindingClass',
+    name: 'dataBindingClass',
+    component: () => import(/* webpackChunkName: "dataBindingClass" */'../views/DataBindingClass.vue')
+  }
+  ,
+  {
+    path: '/dataBindingClass2',
+    name: 'dataBindingClass2',
+    component: () => import(/* webpackChunkName: "dataBindingClass2" */'../views/DataBindingClass2.vue')
+  },
+  {
+    path: '/dataBindingStyle',
+    name: 'dataBindingStyle',
+    component: () => import(/* webpackChunkName: "dataBindingStyle" */'../views/DataBindingStyle.vue')
   }
 
 

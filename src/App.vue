@@ -6,7 +6,16 @@
     <router-link to="/dataBindingHtml">DataBindingHtml</router-link> |
     <router-link to="/dataBindingInputText">dataBindingInputText</router-link> |
     <router-link to="/dataBindingInputNumber">dataBindingInputNumber</router-link> |
-    <router-link to="/dataBindingSelect">dataBindingSelect</router-link>
+    <router-link to="/dataBindingSelect">dataBindingSelect</router-link> |
+    <router-link to="/dataBindingCheckbox">dataBindingCheckbox</router-link> |
+    <router-link to="/dataBindingCheckbox2">dataBindingCheckbox2</router-link> |
+    <router-link to="/dataBindingRadio">dataBindingRadio</router-link> |
+    <router-link to="/dataBindingAttribute">dataBindingAttribute</router-link> |
+    <router-link to="/dataBindingButton">dataBindingButton</router-link> |
+    <router-link to="/dataBindingClass">dataBindingClass</router-link> |
+    <router-link to="/dataBindingClass2">dataBindingClass2</router-link> |
+    <router-link to="/dataBindingStyle">dataBindingStyle</router-link> |
+    <router-link to="/dataBindingList">dataBindingList</router-link> |
 
   </nav>
   <router-view/>
