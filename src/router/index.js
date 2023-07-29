@@ -82,6 +82,16 @@ const routes = [
     path: '/dataBindingStyle',
     name: 'dataBindingStyle',
     component: () => import(/* webpackChunkName: "dataBindingStyle" */'../views/DataBindingStyle.vue')
+  },
+  {
+    path: '/dataBindingList',
+    name: 'dataBindingList',
+    component: () => import(/* webpackChunkName: "dataBindingList" */'../views/DataBindingList.vue')
+  },
+  {
+    path: '/renderingVIf',
+    name: 'renderingVIf',
+    component: () => import(/* webpackChunkName: "renderingVIf" */'../views/RenderingVIf.vue')
   }
 
 

@@ -16,7 +16,7 @@
     <router-link to="/dataBindingClass2">dataBindingClass2</router-link> |
     <router-link to="/dataBindingStyle">dataBindingStyle</router-link> |
     <router-link to="/dataBindingList">dataBindingList</router-link> |
-
+    <router-link to="/renderingVIf">renderingVIf</router-link> |
   </nav>
   <router-view/>
 </template>
